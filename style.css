@@ -17,15 +17,22 @@ body{
     justify-content: center;
 }
 
-.instagram-wrapper{
+.bloco-geral{
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: 100%;
     height: 100vh;
 }
 
-.instagram-phone{
+.instagram-phone{    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,27 +48,30 @@ body{
     justify-content: space-around;
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 3rem;
 }
 
 .group{
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     background-color: white;
-    width: 100%;
+    width: 90%;        
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
 .group:nth-child(1){
     min-height: 19rem;
+    
 }
 
 .instagram-logo{
-    height: 3rem;
+    height: 5rem;
 }
 .profile-photo{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +79,57 @@ body{
     overflow: hidden;    
 }
 
-profile-photo img{
+profile-photo img{    
     height: 6rem;
+}
+
+.instagram-login2{       
+    background-color:  #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-account{
+    color: rgb(160,160,160);
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-the-app{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;        
+    padding: 1.3rem 0;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;    
+    width: 100%;        
+    padding: 0;
+}
+
+.app-download{
+    height: 3rem;
+    width: 15rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('./imagens/botao-appstore.png');
+}
+.app-download:nth-child(2){
+    background-image: url('./imagens/botao-googleplay.png');
 }
